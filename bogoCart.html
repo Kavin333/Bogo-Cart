@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bogoCart.css">
+    <title>BOGO CART</title>
+</head>
+
+<body>
+    <script src="bogoCart.js"></script>
+
+    <div class="container">
+        <div class="banner">
+            <span class="message">YAY! It's BOGO</span>
+        </div>
+
+        <div class="product-container">
+            <!-- Product Box 1 -->
+            <div class="product-box">
+
+                <label for="product1" class="product-content">
+                    <div class="top-content">
+                        <input type="radio" name="product" id="product1" onclick="toggle(1)">
+                        <p>1 Unit</p>
+                        <p class="offer-design">10% Offer</p>
+                        <p>Standard Price</p>
+                    </div>
+                    <div class="bottom-content">
+                        <p> $10.00 USD</p>
+                    </div>
+                </label>
+                <div class="color-size-label">
+                    <div>
+                        <label for="size">Size:</label>
+                        <div class="dropdown">
+                            <p>#1</p>
+                            <select id="size" name="size">
+                                <option value="s">Small</option>
+                                <option value="m">Medium</option>
+                                <option value="l">Large</option>
+                            </select>
+                        </div>
+                        <div class="dropdown">
+                            <p>#2</p>
+                            <select id="size" name="size">
+                                <option value="s">Small</option>
+                                <option value="m">Medium</option>
+                                <option value="l">Large</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="color">Color:</label>
+                        <div class="dropdown">
+                            <select id="color" name="color">
+                                <option value="red">Red</option>
+                                <option value="blue">Blue</option>
+                                <option value="green">Green</option>
+                            </select>
+                        </div>
+                        <div class="dropdown">
+                            <select id="size" name="size">
+                                <option value="s">Small</option>
+                                <option value="m">Medium</option>
+                                <option value="l">Large</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Box 2 -->
+            <div class="product-box">
+
+                <label for="product2" class="product-content">
+                    <div class="top-content">
+                        <input type="radio" name="product" id="product2" onclick="toggle(1)">
+                        <p>2 Unit</p>
+                        <p class="offer-design">20% Offer</p>
+                    </div>
+                    <div class="bottom-content">
+                        <p>$18.00 USD</p>
+                    </div>
+                </label>
+                <div class="color-size-label">
+                    <div>
+                        <label for="size">Size:</label>
+                        <div class="dropdown">
+                            <p>#1</p>
+                            <select id="size" name="size">
+                                <option value="s">Small</option>
+                                <option value="m">Medium</option>
+                                <option value="l">Large</option>
+                            </select>
+                        </div>
+                        <div class="dropdown">
+                            <p>#2</p>
+                            <select id="size" name="size">
+                                <option value="s">Small</option>
+                                <option value="m">Medium</option>
+                                <option value="l">Large</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="color">Color:</label>
+                        <div class="dropdown">
+                            <select id="color" name="color">
+                                <option value="red">Red</option>
+                                <option value="blue">Blue</option>
+                                <option value="green">Green</option>
+                            </select>
+                        </div>
+                        <div class="dropdown">
+                            <select id="size" name="size">
+                                <option value="s">Small</option>
+                                <option value="m">Medium</option>
+                                <option value="l">Large</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Box 3 -->
+            <div class="product-box">
+
+                <label for="product3" class="product-content">
+                    <div class="top-content">
+                        <input type="radio" name="product" id="product3" onclick="toggle(1)">
+                        <p>3 Unit</p>
+                        <p class="offer-design">30% Offer</p>
+                    </div>
+                    <div class="bottom-content">
+                        <p> $24.00 USD</p>
+                    </div>
+                </label>
+                <div class="color-size-label">
+                    <div>
+                        <label for="size">Size:</label>
+                        <div class="dropdown">
+                            <p>#1</p>
+                            <select id="size" name="size">
+                                <option value="s">Small</option>
+                                <option value="m">Medium</option>
+                                <option value="l">Large</option>
+                            </select>
+                        </div>
+                        <div class="dropdown">
+                            <p>#2</p>
+                            <select id="size" name="size">
+                                <option value="s">Small</option>
+                                <option value="m">Medium</option>
+                                <option value="l">Large</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="color">Color:</label>
+                        <div class="dropdown">
+                            <select id="color" name="color">
+                                <option value="red">Red</option>
+                                <option value="blue">Blue</option>
+                                <option value="green">Green</option>
+                            </select>
+                        </div>
+                        <div class="dropdown">
+                            <select id="size" name="size">
+                                <option value="s">Small</option>
+                                <option value="m">Medium</option>
+                                <option value="l">Large</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="order-summary">
+            <div class="order-details">
+                <p>Free Delivery</p>
+                <p>Total: $18.00 USD</p>
+            </div>
+            <div class="add-to-cart">
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
